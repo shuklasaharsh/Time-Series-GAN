@@ -290,4 +290,4 @@ def getTimeGAN(ori_data, parameters):
     generated_data = generated_data * max_val
     generated_data = generated_data + min_val
 
-    return generated_data
+    return generated_data, sess
